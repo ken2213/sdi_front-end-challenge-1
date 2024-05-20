@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({ articleId }) => {
 
   return (
     <section className='min-h-[400px]'>
-      <div className='bg-orange-500 h-[500px] flex justify-center'>
+      <div className='h-[500px] flex justify-center'>
         <img 
           src={`./${article.image_url}`} 
           className='w-full object-cover'
