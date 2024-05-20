@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        "toyota-red": "#eb0a1e",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
