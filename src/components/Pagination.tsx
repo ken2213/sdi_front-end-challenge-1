@@ -11,7 +11,7 @@ import {
 
 const PaginationSection = () => {
     return (
-        <section className='bg-green-500 absolute w-full bottom-0'>
+        <section className='absolute bottom-0 pb-4'>
             <Pagination>
                 <PaginationContent>
                     <PaginationItem>
@@ -74,7 +74,6 @@ const PaginationSection = () => {
                     </PaginationItem>
                 </PaginationContent>
             </Pagination>
-
         </section>
     )
 }
